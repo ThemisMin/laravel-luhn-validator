@@ -9,8 +9,7 @@
   "description": "ID card valudator luhn algorithm validator.",
   "type": "library",
   "require": {
-    "php": "^7.2",
-    "laravel/laravel": "^5.5"
+    "php": "^5.6"
   },
   "license": "MIT",
   "minimum-stability": "stable",
