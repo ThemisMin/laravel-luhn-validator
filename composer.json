@@ -1,0 +1,35 @@
+{
+  "name": "themismin/laravel-luhn-validator",
+  "keywords": [
+    "ID card",
+    "luhn",
+    "valudator",
+    "laravel"
+  ],
+  "description": "ID card valudator luhn algorithm validator.",
+  "type": "library",
+  "require": {
+    "php": "^7.2",
+    "laravel/laravel": "^5.5"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ThemisMin\\LaravelLuhuValidator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ThemisMin\\LaravelLuhuValidator\\ValidatorServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "themismin",
+      "email": "themismin@gmail.com"
+    }
+  ]
+}
